@@ -1,9 +1,12 @@
 *in Excel sheet rename years starting with y
+cd "/Users/AtaCan/Dropbox/"
 	 gen id = _n
 	 reshape long y, i(id) j(year)
 	 encode  indicatorname, gen(varnum)
 	 label save varnum using "/Users/AtaCan/Dropbox/Research/vardesc.do" ,  replace
 	 
+	 *cd "C:/Documents and Settings/acbertay/My Documents/Google Drive/"
+*cd "C:/Users/AtaCan/Google Drive/"
 
 	 **
 /**The "label save" command creates vardesc.do, a do file for applying the WDI series descriptors as labels 
