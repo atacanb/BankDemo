@@ -1,5 +1,6 @@
-This is the readme local change for the Demo
-===============================
+This is the readme both internet and local change for the Demo
+=======
+
 
 by Ata Bertay
 
